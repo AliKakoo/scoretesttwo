@@ -22,3 +22,5 @@ def predict():
 trigger = st.button('Predict', on_click=predict)
 
 minutes=10
+age=25
+
