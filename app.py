@@ -20,5 +20,3 @@ def predict():
     prediction = model.predict(X)
     st.write(prediction)
 trigger = st.button('Predict', on_click=predict)
-
-email='alikaku@yahoo.com'
